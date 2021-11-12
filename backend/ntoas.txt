@@ -1,0 +1,38 @@
+ persona, fecha del seguimiento, dni, teléfono de
+contacto, fiebre (s/n), tos continuada o persistente (s/n), dificultad
+respiratoria, malestar general
+
+
+Persona{
+    nombre, 
+    dni, 
+    telefono de contacto 
+    seguimientos[id de seguimientos]
+}
+
+
+Seguimiento{
+    fecha
+    persona -> id de persona
+    fiebre
+    tos continuada 
+    dificultad respiratoria 
+    malestar general
+}
+
+
+//listado de personas //get personas 
+//formulario para visiualizar el seguimiento de la persona //get seguimiento por id 
+//formulario para crear el segguimiento de una persona  // post seguimeinto
+//get persona por id y hacer un put
+//detalles de una persona para hacer put //ver los seguimientos en dicha pantalla
+
+
+
+metods http a implementar 
+get personas 
+get persona por id (pupulate a seguimiento)
+put persona
+get seguimiento
+post seguimieto 
+

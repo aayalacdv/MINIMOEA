@@ -1,0 +1,19 @@
+li{
+    text-decoration: none;
+    font-size: bold;
+    padding-top: 20px;
+    list-style: none;
+}
+
+a{
+    color: black; 
+}
+
+mat-toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;    
+    align-items: center;
+}

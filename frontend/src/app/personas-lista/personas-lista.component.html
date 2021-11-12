@@ -1,0 +1,10 @@
+<div class="personasList">
+    <div class="descripcion" *ngFor="let persona of personas; let i = index">
+
+        <h1>Name : {{ persona.nombre}}</h1>
+        <h1>dni: {{ persona.dni}}</h1>
+        <h1>telefono: {{ persona.telefono}}</h1>
+        <h1>seguimientos: {{ persona.seguimientos.length}}</h1>
+
+    </div>
+</div>
